@@ -9,6 +9,6 @@ public class StringImmutable1 {
         System.out.println("str2 : " + str2);
 
         // String 은 불변 객체이다.
-        
+
     }
 }
