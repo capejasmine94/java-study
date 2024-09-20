@@ -24,5 +24,6 @@ public class StringBuilderMain1_1 {
         System.out.println("string = " + string);
 
         // StringBuilder 를 사용하면 가변객체를 만들수있다. 이로 인해 메모리 사용을 줄이고 성능을 향상시킬수 있다.
+        // 보통 문자열을 변경하는 동안만 사용하다가 문자열 변경이 끝나면 안전한(불변) String 으로 변환하는것이 좋다.
     }
 }
