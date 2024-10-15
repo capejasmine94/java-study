@@ -6,9 +6,9 @@ public class ClassGradeEx2_1 {
         int price = 10000;
         DiscountService discountService = new DiscountService();
 
-        int basic = discountService.discount(ClassGrade.BASIC, price);
-        int gold = discountService.discount(ClassGrade.GOLD, price);
-        int diamond = discountService.discount(ClassGrade.DIAMOND, price);
+        int basic = discountService.discount(Grade.BASIC, price);
+        int gold = discountService.discount(Grade.GOLD, price);
+        int diamond = discountService.discount(Grade.DIAMOND, price);
 
         System.out.println("basic = " + basic);
         System.out.println("gold = " + gold);
