@@ -30,7 +30,6 @@ public class SystemMain {
 
         // 프로그램 종료
         System.exit(0);
-        
 
 
     }
