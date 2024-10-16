@@ -2,14 +2,14 @@ package intermediatePart1.enumration.ex2;
 
 public class DiscountService {
 
-    public int discount(Grade classGrage, int price) {
+    public int discount(Grade classGrade, int price) {
         int discountPercent = 0;
 
-        if (classGrage == Grade.BASIC) {
+        if (classGrade == Grade.BASIC) {
             discountPercent = 10;
-        } else if (classGrage == Grade.GOLD) {
+        } else if (classGrade == Grade.GOLD) {
             discountPercent = 20;
-        } else if (classGrage == Grade.DIAMOND) {
+        } else if (classGrade == Grade.DIAMOND) {
             discountPercent = 30;
         } else {
             System.out.println("할인X");
